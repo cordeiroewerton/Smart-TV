@@ -1,7 +1,7 @@
 #include"..\Header Files\Pessoa.h"
 
 Pessoa::Pessoa(string Nome){
-	setNome(Nome);
+	this -> Nome = Nome;
 }
 
 void Pessoa::setNome(string Nome){

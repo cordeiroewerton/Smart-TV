@@ -1,8 +1,7 @@
 #include"..\Header Files\Ator.h"
 
-Ator::Ator(string Nome, int tempo_De_Carreira){
-	setNome(Nome);
-	setTempo(tempo_De_Carreira);
+Ator::Ator(string Nome, int tempo_De_Carreira) : Pessoa(Nome){
+	this -> tempo_De_Carreira = tempo_De_Carreira;
 }
 
 void Ator::setTempo(int tempo_De_Carreira){
