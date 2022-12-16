@@ -1,0 +1,3 @@
+C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/cmake-build-debug/CMakeFiles/Smart_TV.dir
+C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/cmake-build-debug/CMakeFiles/rebuild_cache.dir

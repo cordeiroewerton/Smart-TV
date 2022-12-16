@@ -1,0 +1,8 @@
+# ninja log v5
+52	2177	6928579159900846	CMakeFiles/Smart_TV.dir/main.cpp.obj	8dc1fe980bd8690f
+3588	4375	6928579182514637	CMakeFiles/Smart_TV.dir/Resource_Files/Diretor.cpp.obj	7bffd39536e0ae77
+3538	4450	6928579183272512	CMakeFiles/Smart_TV.dir/Resource_Files/Ator.cpp.obj	e63e424f74ccf214
+71	3534	6928579174030077	CMakeFiles/Smart_TV.dir/Resource_Files/Pessoa.cpp.obj	9a8afcdbbbf5ab75
+2	3586	6928579174359197	CMakeFiles/Smart_TV.dir/Resource_Files/App.cpp.obj	75b401e3b8bc5f5d
+2179	3611	6928579174683390	CMakeFiles/Smart_TV.dir/Resource_Files/Time.cpp.obj	c7fca46b38fd783a
+4451	7595	6928579214701148	Smart_TV.exe	59fbeed20a5e6277
