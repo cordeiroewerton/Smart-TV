@@ -1,3 +1,6 @@
+#ifndef SMART_TV_APP_H
+#define SMART_TV_APP_H
+
 #include <iostream>
 using namespace std;
 
@@ -15,3 +18,5 @@ class App{
 		virtual void run();
 	
 };
+
+#endif //SMART_TV_APP_H

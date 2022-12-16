@@ -1,3 +1,6 @@
+#ifndef SMART_TV_PESSOA_H
+#define SMART_TV_PESSOA_H
+
 #include <iostream>
 using namespace std;
 class Pessoa{
@@ -10,3 +13,5 @@ class Pessoa{
 		void setNome(string Nome);
 	
 };
+
+#endif //SMART_TV_PESSOA_H

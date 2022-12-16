@@ -4,9 +4,9 @@
 
 class Filme: public Producoes{
 private:
-    float duration;
+    int duration; //Em minutos
 public:
-    Filme(string Nome_da_producao, float duration);
+    Filme(string Nome_da_producao, int duration);
     void play() override;
 };
 

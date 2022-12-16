@@ -1,3 +1,6 @@
+#ifndef SMART_TV_DIRETOR_H
+#define SMART_TV_DIRETOR_H
+
 #include"..\Header Files\Pessoa.h"
 
 class Diretor:public Pessoa{
@@ -10,3 +13,5 @@ class Diretor:public Pessoa{
 		int getNumero();
 	
 };
+
+#endif //SMART_TV_DIRETOR_H

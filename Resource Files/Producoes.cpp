@@ -40,6 +40,22 @@ void Producoes::remov_diretor(string Nome_do_diretor) {
     }
 }
 
+int Producoes::Atores_size() {
+    return Atores.size();
+}
+
+int Producoes::Diretores_size() {
+    return Diretores.size();
+}
+
+Ator Producoes::getAtor(int i){
+    return Atores[i];
+}
+
+Diretor Producoes::getDiretor(int i){
+    return Diretores[i];
+}
+
 void Producoes::play() {
 
 }

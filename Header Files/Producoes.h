@@ -18,6 +18,10 @@ public:
     void adc_diretor(string Nome_do_diretor, int numero_De_Producoes);
     void remov_ator(string Nome_do_ator);
     void remov_diretor(string Nome_do_diretor);
+    int Atores_size();
+    int Diretores_size();
+    Ator getAtor(int i);
+    Diretor getDiretor(int i);
     virtual void play();
 };
 

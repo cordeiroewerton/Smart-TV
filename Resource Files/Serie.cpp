@@ -1,12 +1,12 @@
-#include"..\Header Files\Filme.h"
+#include"..\Header Files\Serie.h"
 
-Filme::Filme(string Nome_da_producao, int duration): Producoes(Nome_da_producao) {
-    this -> duration = duration;
+Serie::Serie(string Nome_da_producao, int Numero_de_cap): Producoes(Nome_da_producao) {
+    this -> Numero_de_cap = Numero_de_cap;
 }
 
-void Filme::play() {
-    cout << "NOME DO FILME: " << getNome_da_producao() << endl;
-    cout << "DURACAO DO FILME: " << duration;
+void Serie::play(){
+    cout << "NOME DA SERIE: " << getNome_da_producao() << endl;
+    cout << "QUANTIDADE DE CAPITULOS: " << Numero_de_cap;
     cout << "-----------" << endl;
     cout << "NOME DOS DIRETORES(AS):" << endl;
     for (int i = 0; i < Diretores_size(); i++){
