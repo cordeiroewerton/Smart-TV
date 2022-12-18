@@ -7,6 +7,7 @@ private:
     int duration; //Em minutos
 public:
     Filme(string Nome_da_producao, int duration);
+    Filme();
     void play() override;
 };
 

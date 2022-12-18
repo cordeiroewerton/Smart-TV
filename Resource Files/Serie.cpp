@@ -1,5 +1,8 @@
 #include"..\Header Files\Serie.h"
 
+Serie::Serie(){
+}
+
 Serie::Serie(string Nome_da_producao, int Numero_de_cap): Producoes(Nome_da_producao) {
     this -> Numero_de_cap = Numero_de_cap;
 }

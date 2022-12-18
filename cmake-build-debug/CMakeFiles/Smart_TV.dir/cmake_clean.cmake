@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Smart_TV.dir/Resource_Files/Producoes.cpp.obj.d"
   "CMakeFiles/Smart_TV.dir/Resource_Files/Serie.cpp.obj"
   "CMakeFiles/Smart_TV.dir/Resource_Files/Serie.cpp.obj.d"
+  "CMakeFiles/Smart_TV.dir/Resource_Files/Streaming.cpp.obj"
+  "CMakeFiles/Smart_TV.dir/Resource_Files/Streaming.cpp.obj.d"
   "CMakeFiles/Smart_TV.dir/Resource_Files/Time.cpp.obj"
   "CMakeFiles/Smart_TV.dir/Resource_Files/Time.cpp.obj.d"
   "CMakeFiles/Smart_TV.dir/main.cpp.obj"

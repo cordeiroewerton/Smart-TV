@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/Resource Files/Pessoa.cpp" "CMakeFiles/Smart_TV.dir/Resource_Files/Pessoa.cpp.obj" "gcc" "CMakeFiles/Smart_TV.dir/Resource_Files/Pessoa.cpp.obj.d"
   "C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/Resource Files/Producoes.cpp" "CMakeFiles/Smart_TV.dir/Resource_Files/Producoes.cpp.obj" "gcc" "CMakeFiles/Smart_TV.dir/Resource_Files/Producoes.cpp.obj.d"
   "C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/Resource Files/Serie.cpp" "CMakeFiles/Smart_TV.dir/Resource_Files/Serie.cpp.obj" "gcc" "CMakeFiles/Smart_TV.dir/Resource_Files/Serie.cpp.obj.d"
+  "C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/Resource Files/Streaming.cpp" "CMakeFiles/Smart_TV.dir/Resource_Files/Streaming.cpp.obj" "gcc" "CMakeFiles/Smart_TV.dir/Resource_Files/Streaming.cpp.obj.d"
   "C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/Resource Files/Time.cpp" "CMakeFiles/Smart_TV.dir/Resource_Files/Time.cpp.obj" "gcc" "CMakeFiles/Smart_TV.dir/Resource_Files/Time.cpp.obj.d"
   "C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/main.cpp" "CMakeFiles/Smart_TV.dir/main.cpp.obj" "gcc" "CMakeFiles/Smart_TV.dir/main.cpp.obj.d"
   )
