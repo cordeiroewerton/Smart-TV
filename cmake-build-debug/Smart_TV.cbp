@@ -105,6 +105,9 @@
 		<Unit filename="C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/Header Files/Serie.h">
 			<Option target="Smart_TV"/>
 		</Unit>
+		<Unit filename="C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/Header Files/SmartTV.h">
+			<Option target="Smart_TV"/>
+		</Unit>
 		<Unit filename="C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/Header Files/Streaming.h">
 			<Option target="Smart_TV"/>
 		</Unit>
@@ -130,6 +133,9 @@
 			<Option target="Smart_TV"/>
 		</Unit>
 		<Unit filename="C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/Resource Files/Serie.cpp">
+			<Option target="Smart_TV"/>
+		</Unit>
+		<Unit filename="C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/Resource Files/SmartTV.cpp">
 			<Option target="Smart_TV"/>
 		</Unit>
 		<Unit filename="C:/Users/Ewerton/Desktop/Smart TV/Smart-TV/Resource Files/Streaming.cpp">

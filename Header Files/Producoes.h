@@ -11,6 +11,7 @@ private:
     vector<Ator> Atores;
     vector<Diretor> Diretores;
 public:
+    Producoes();
     Producoes(string Nome_da_producao);
     void setNome_da_producao(string Nome_da_producao);
     string getNome_da_producao();

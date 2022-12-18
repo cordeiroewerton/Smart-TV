@@ -296,6 +296,30 @@ Resource_Files/Serie.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Smart_TV.dir\build.make CMakeFiles/Smart_TV.dir/Resource_Files/Serie.cpp.s
 .PHONY : Resource_Files/Serie.cpp.s
 
+Resource_Files/SmartTV.obj: Resource_Files/SmartTV.cpp.obj
+.PHONY : Resource_Files/SmartTV.obj
+
+# target to build an object file
+Resource_Files/SmartTV.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Smart_TV.dir\build.make CMakeFiles/Smart_TV.dir/Resource_Files/SmartTV.cpp.obj
+.PHONY : Resource_Files/SmartTV.cpp.obj
+
+Resource_Files/SmartTV.i: Resource_Files/SmartTV.cpp.i
+.PHONY : Resource_Files/SmartTV.i
+
+# target to preprocess a source file
+Resource_Files/SmartTV.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Smart_TV.dir\build.make CMakeFiles/Smart_TV.dir/Resource_Files/SmartTV.cpp.i
+.PHONY : Resource_Files/SmartTV.cpp.i
+
+Resource_Files/SmartTV.s: Resource_Files/SmartTV.cpp.s
+.PHONY : Resource_Files/SmartTV.s
+
+# target to generate assembly for a file
+Resource_Files/SmartTV.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Smart_TV.dir\build.make CMakeFiles/Smart_TV.dir/Resource_Files/SmartTV.cpp.s
+.PHONY : Resource_Files/SmartTV.cpp.s
+
 Resource_Files/Streaming.obj: Resource_Files/Streaming.cpp.obj
 .PHONY : Resource_Files/Streaming.obj
 
@@ -398,6 +422,9 @@ help:
 	@echo ... Resource_Files/Serie.obj
 	@echo ... Resource_Files/Serie.i
 	@echo ... Resource_Files/Serie.s
+	@echo ... Resource_Files/SmartTV.obj
+	@echo ... Resource_Files/SmartTV.i
+	@echo ... Resource_Files/SmartTV.s
 	@echo ... Resource_Files/Streaming.obj
 	@echo ... Resource_Files/Streaming.i
 	@echo ... Resource_Files/Streaming.s

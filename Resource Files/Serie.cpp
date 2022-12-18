@@ -1,6 +1,6 @@
 #include"..\Header Files\Serie.h"
 
-Serie::Serie(){
+Serie::Serie() : Producoes(){
 }
 
 Serie::Serie(string Nome_da_producao, int Numero_de_cap): Producoes(Nome_da_producao) {

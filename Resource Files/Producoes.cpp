@@ -1,5 +1,8 @@
 #include"..\Header Files\Producoes.h"
 
+Producoes::Producoes() {
+}
+
 Producoes::Producoes(string Nome_da_producao) {
     this -> Nome_da_producao = Nome_da_producao;
 }

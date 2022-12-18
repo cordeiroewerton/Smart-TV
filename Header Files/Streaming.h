@@ -13,7 +13,7 @@ private:
     vector <Serie> Series;
 public:
     Streaming(string Nome, float version);
-    void run(Streaming streaming) override;
+    void run() override;
     void operator<<(Filme filme);
     void operator<<(Serie serie);
     void operator>>(string Nome_da_producao);

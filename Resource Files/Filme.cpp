@@ -1,6 +1,6 @@
 #include"..\Header Files\Filme.h"
 
-Filme::Filme(){
+Filme::Filme() : Producoes(){
 }
 
 Filme::Filme(string Nome_da_producao, int duration): Producoes(Nome_da_producao) {

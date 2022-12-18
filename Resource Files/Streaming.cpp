@@ -60,7 +60,6 @@ ostream & operator<<(ostream & os, Streaming & streaming){ //
     return os;
 }
 
-void Streaming::run(Streaming streaming){
-    cout << streaming;
-
+void Streaming::run(){
+    cout << *this;
 }
