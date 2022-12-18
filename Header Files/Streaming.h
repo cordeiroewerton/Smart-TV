@@ -3,7 +3,9 @@
 #include "App.h"
 #include "Filme.h"
 #include "Serie.h"
+#include <iostream>
 #include <vector>
+using namespace std;
 
 class Streaming: public App{
 private:
@@ -11,11 +13,14 @@ private:
     vector <Serie> Series;
 public:
     Streaming(string Nome, float version);
-    void run() override;
+    void run(Streaming streaming) override;
     void operator<<(Filme filme);
     void operator<<(Serie serie);
     void operator>>(string Nome_da_producao);
-
+    int getFilmesTam();
+    int getSeriesTam();
+    Filme getFilme(int i);
+    Serie getSerie(int i);
 };
 
 #endif

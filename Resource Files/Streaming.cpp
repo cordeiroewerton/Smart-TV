@@ -12,22 +12,55 @@ void Streaming::operator<<(Serie serie) {
 }
 
 void Streaming::operator>>(string Nome_da_producao){
-    Filme *filmeaux = new Filme();
-    Serie *serieaux = new Serie();
     for(int i = 0; i < Filmes.size(); i++){
-        filmeaux = Filmes[i];
-        if(filmeaux->getNome_da_producao() == Nome_da_producao){
+        Filme filmeaux = Filmes.at(i);
+        if(filmeaux.getNome_da_producao() == Nome_da_producao){
             Filmes.erase(Filmes.begin() + (i-1));
         }
     }
     for(int i = 0; i < Series.size(); i++){
-        filmeaux = Series[i];
-        if(filmeaux->getNome_da_producao() == Nome_da_producao){
-            Series.erase(Filmes.begin() + (i-1));
+        Serie serieaux = Series.at(i);
+        if(serieaux.getNome_da_producao() == Nome_da_producao){
+            Series.erase(Series.begin() + (i-1));
         }
     }
 }
 
-void Streaming::run(){
+int Streaming::getFilmesTam() {
+    return Filmes.size();
+}
+
+int Streaming::getSeriesTam() {
+    return Series.size();
+}
+
+Filme Streaming::getFilme(int i){
+    return Filmes[i];
+}
+
+Serie Streaming::getSerie(int i){
+    return Series[i];
+}
+
+ostream & operator<<(ostream & os, Streaming & streaming){ //
+    int tam = streaming.getFilmesTam();
+    Filme filmeaux;
+    Serie serieaux;
+    cout << "--------FILMES--------" << endl;
+    for (int i = 0; i < tam; i++){
+        filmeaux = streaming.getFilme(i);
+        cout << "NOME DO FILME:" << filmeaux.getNome_da_producao() << endl;
+    }
+    cout << "--------SERIES--------" << endl;
+    tam = streaming.getSeriesTam();
+    for (int i = 0; i < tam; i++){
+        serieaux = streaming.getSerie(i);
+        cout << "NOME DO FILME:" << serieaux.getNome_da_producao() << endl;
+    }
+    return os;
+}
+
+void Streaming::run(Streaming streaming){
+    cout << streaming;
 
 }

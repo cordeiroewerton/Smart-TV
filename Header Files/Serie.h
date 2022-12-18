@@ -6,6 +6,7 @@ class Serie: public Producoes{
 private:
     int Numero_de_cap;
 public:
+    Serie();
     Serie(string Nome_da_producao, int Numero_de_cap);
     void play() override;
 };
