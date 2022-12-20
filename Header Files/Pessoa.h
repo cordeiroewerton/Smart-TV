@@ -1,6 +1,8 @@
 #ifndef SMART_TV_PESSOA_H
 #define SMART_TV_PESSOA_H
-
+#include <vector>
+#include <string>
+#include <iostream>
 using namespace std;
 class Pessoa{
 private:

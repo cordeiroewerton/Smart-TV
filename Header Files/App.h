@@ -1,5 +1,9 @@
 #ifndef SMART_TV_APP_H
 #define SMART_TV_APP_H
+#include <vector>
+#include <string>
+#include <iostream>
+using namespace std;
 
 class App{
 	private:

@@ -2,6 +2,8 @@ CMakeFiles/Smart_TV.dir/Resource_Files/Serie.cpp.obj: \
  C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Resource\ Files\Serie.cpp \
  C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Serie.h \
  C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Producoes.h \
+ C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Ator.h \
+ C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Pessoa.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -40,13 +42,9 @@ CMakeFiles/Smart_TV.dir/Resource_Files/Serie.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Ator.h \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Pessoa.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/wchar.h \
@@ -62,27 +60,26 @@ CMakeFiles/Smart_TV.dir/Resource_Files/Serie.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/locale.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/ctype.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
@@ -104,13 +101,6 @@ CMakeFiles/Smart_TV.dir/Resource_Files/Serie.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
@@ -123,6 +113,16 @@ CMakeFiles/Smart_TV.dir/Resource_Files/Serie.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/system_error \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \

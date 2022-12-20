@@ -2,6 +2,7 @@
 #define SMART_TV_SMARTTV_H
 #include "Streaming.h"
 #include "Time.h"
+#include <fstream>
 
 class SmartTV{
 private:

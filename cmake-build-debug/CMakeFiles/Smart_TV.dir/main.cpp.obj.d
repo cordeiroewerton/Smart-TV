@@ -136,37 +136,28 @@ CMakeFiles/Smart_TV.dir/main.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
- C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Resource\ Files\App.cpp \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/App.h \
- C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Resource\ Files\Ator.cpp \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Ator.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/App.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/Ator.h \
  C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Pessoa.h \
- C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Resource\ Files\Diretor.cpp \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Diretor.h \
- C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Resource\ Files\Filme.cpp \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Filme.h \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Producoes.h \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Ator.h \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Diretor.h \
- C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Resource\ Files\Pessoa.cpp \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Pessoa.h \
- C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Resource\ Files\Producoes.cpp \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Producoes.h \
- C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Resource\ Files\SmartTV.cpp \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/SmartTV.h \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Streaming.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/Diretor.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/Filme.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/Producoes.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/Ator.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/Diretor.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/Pessoa.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/Producoes.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/SmartTV.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/Streaming.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/App.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/Filme.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/Serie.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/Time.h \
  C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/App.h \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Filme.h \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Serie.h \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Time.h \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/App.h \
- C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Resource\ Files\Streaming.cpp \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Streaming.h \
- C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Resource\ Files\Time.cpp \
- C:/Users/Ewerton/Desktop/Smart\ TV/Smart-TV/Header\ Files/Time.h
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/Streaming.h \
+ C:\Users\Ewerton\Desktop\Smart\ TV\Smart-TV\Header\ Files/Time.h

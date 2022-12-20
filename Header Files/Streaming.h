@@ -3,7 +3,6 @@
 #include "App.h"
 #include "Filme.h"
 #include "Serie.h"
-using namespace std;
 
 class Streaming: public App{
 private:
