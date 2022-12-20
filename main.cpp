@@ -16,9 +16,9 @@ using namespace std;
 
 int main (){
 
-    int opc1, opc2, tipo_app;
+    int opc1, opc2, tipo_app, appOpc;
     string marcaTV, modeloTV, appNome;
-    float SOTV;
+    float SOTV, versaoAPP;
 
     cout << "[0] SAIR DA SMART TV" << endl;
     cout << "[1] LIGAR A SMART TV" << endl;
@@ -49,14 +49,39 @@ int main (){
 
         }
         else if(opc2 == 1){
-
+            cout << "[0] INSTALAR UM APLICATIVO TIME" << endl;
+            cout << "[1] INSTALAR UM APLICATIVO STREAMING" << endl;
+            cout << "DIGITE QUAL TIPO DE APLICATIVO DESEJA INSTALAR";
+            cin >> appOpc;
+            if(appOpc == 0){
+                cout << "DIGITE O NOME DO APLICATIVO:" << endl;
+                cin >> appNome;
+                cout << "DIGITE A VERSAO DO APLICATIVO:" << endl;
+                cin >> versaoAPP;
+                Time *timeAux = new Time(appNome, versaoAPP);
+                smart->instalarApp(*timeAux);
+                cout << "APLICATIVO INSTALADO COM SUCESSO" << endl;
+            }
+            if(appOpc == 1){
+                cout << "DIGITE O NOME DO APLICATIVO:" << endl;
+                cin >> appNome;
+                cout << "DIGITE A VERSAO DO APLICATIVO:" << endl;
+                cin >> versaoAPP;
+                Streaming *stream = new Streaming(appNome, versaoAPP);
+                smart->instalarApp(*stream);
+                cout << "APLICATIVO INSTALAO COM SUCESSO" << endl;
+            }
         }
-        else if(opc2 == 2){
-
+        else if(opc2 == 2) {
+            cout << "DIGITE O NOME DO APLICATIVO A SER REMOVIDO:";
+            cin >> appNome;
+            smart->desinstalarApp(appNome);
+            cout << "APLICATIVO DESINSTALADO COM SUCESSO" << endl;
         }
         else{
             cout << "OPCAO NAO ENCONTRADA";
         }
+        smart->Desligar();
 
 
     }

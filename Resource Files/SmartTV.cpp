@@ -27,8 +27,8 @@ void SmartTV::Ligar() {
 }
 
 void SmartTV::Desligar() {
-    fstream arq1("DadosStreaming.bin", ios::out);
-    fstream arq2("DadosTime.bin", ios::out);
+    fstream arq1("DadosStreaming.txt", ios::out);
+    fstream arq2("DadosTime.txt", ios::out);
     if(arq1.is_open()){
         for(int i = 0; i < appStreaming.size(); i++){
             streamingaux = appStreaming[i];
