@@ -1,7 +1,6 @@
 #ifndef SMART_TV_PRODUCOES_H
 #define SMART_TV_PRODUCOES_H
 
-#include <vector>
 #include "Ator.h"
 #include "Diretor.h"
 

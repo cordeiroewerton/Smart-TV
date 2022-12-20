@@ -1,5 +1,9 @@
 #include"..\Header Files\Pessoa.h"
 
+Pessoa::Pessoa(){
+
+}
+
 Pessoa::Pessoa(string Nome){
 	this -> Nome = Nome;
 }

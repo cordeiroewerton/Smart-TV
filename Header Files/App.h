@@ -1,9 +1,6 @@
 #ifndef SMART_TV_APP_H
 #define SMART_TV_APP_H
 
-#include <iostream>
-using namespace std;
-
 class App{
 	private:
 		string Nome;

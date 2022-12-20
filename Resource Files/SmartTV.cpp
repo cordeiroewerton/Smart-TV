@@ -1,4 +1,3 @@
-#include <fstream>
 #include"..\Header Files\SmartTV.h"
 
 SmartTV::SmartTV() {
@@ -69,17 +68,20 @@ void SmartTV::desinstalarApp(string Nome_do_App) {
     }
 }
 
-void SmartTV::run(string Nome_do_App) {
+int SmartTV::run(string Nome_do_App) {
     for(int i = 0; i < appTime.size(); i++){
         timeaux = appTime.at(i);
         if(timeaux.getNome() == Nome_do_App){
             timeaux.run();
+            return 0;
         }
     }
     for(int i = 0; i < appStreaming.size(); i++){
         streamingaux = appStreaming.at(i);
         if(streamingaux.getNome() == Nome_do_App){
             streamingaux.run();
+            return 1;
         }
     }
+    return 2;
 }

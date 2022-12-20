@@ -20,7 +20,7 @@ public:
     void instalarApp(Time time);
     void instalarApp(Streaming straming);
     void desinstalarApp(string Nome_do_App);
-    void run(string Nome_do_App);
+    int run(string Nome_do_App);
 
 };
 

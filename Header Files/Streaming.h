@@ -3,8 +3,6 @@
 #include "App.h"
 #include "Filme.h"
 #include "Serie.h"
-#include <iostream>
-#include <vector>
 using namespace std;
 
 class Streaming: public App{
