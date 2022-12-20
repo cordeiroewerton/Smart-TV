@@ -1,5 +1,8 @@
 #include"..\Header Files\Time.h"
 
+Time::Time():App(){
+}
+
 Time::Time(string Nome, float version) : App(Nome, version){
 }
 

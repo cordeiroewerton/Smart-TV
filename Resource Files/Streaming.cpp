@@ -1,5 +1,8 @@
 #include"..\Header Files\Streaming.h"
 
+Streaming::Streaming():App(){
+}
+
 Streaming::Streaming(string Nome, float version) : App(Nome, version){
 }
 

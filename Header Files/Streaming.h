@@ -12,6 +12,7 @@ private:
     vector <Filme> Filmes;
     vector <Serie> Series;
 public:
+    Streaming();
     Streaming(string Nome, float version);
     void run() override;
     void operator<<(Filme filme);

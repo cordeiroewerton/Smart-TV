@@ -1,5 +1,8 @@
 #include"..\Header Files\App.h"
 
+App::App(){
+}
+
 App::App(string Nome, float version){
 	this -> Nome = Nome;
 	this -> version = version;

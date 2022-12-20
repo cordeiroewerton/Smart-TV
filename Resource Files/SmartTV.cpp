@@ -14,7 +14,7 @@ void SmartTV::Ligar() {
     fstream arq1("../DadosStreaming.bin",ios::in);
     fstream arq2("../DadosTime.bin",ios::in);
     if(arq1.is_open()) {
-        while (arq1.read(reinterpret_cast<char *>(&), sizeof(streamingaux))) {
+        while (arq1.read(reinterpret_cast<char *>(&streamingaux), sizeof(streamingaux))) {
             appStreaming.push_back(streamingaux);
         }
     }
@@ -44,5 +44,42 @@ void SmartTV::Desligar() {
     }
     arq1.close();
     arq2.close();
+}
 
+void SmartTV::instalarApp(Time time) {
+    appTime.push_back(time);
+}
+
+void SmartTV::instalarApp(Streaming streaming) {
+    appStreaming.push_back(streaming);
+}
+
+void SmartTV::desinstalarApp(string Nome_do_App) {
+    for(int i = 0; i < appTime.size(); i++){
+        timeaux = appTime.at(i);
+        if(timeaux.getNome() == Nome_do_App){
+            appTime.erase(appTime.begin() + (i-1));
+        }
+    }
+    for(int i = 0; i < appStreaming.size(); i++){
+        streamingaux = appStreaming.at(i);
+        if(streamingaux.getNome() == Nome_do_App){
+            appStreaming.erase(appStreaming.begin() + (i-1));
+        }
+    }
+}
+
+void SmartTV::run(string Nome_do_App) {
+    for(int i = 0; i < appTime.size(); i++){
+        timeaux = appTime.at(i);
+        if(timeaux.getNome() == Nome_do_App){
+            timeaux.run();
+        }
+    }
+    for(int i = 0; i < appStreaming.size(); i++){
+        streamingaux = appStreaming.at(i);
+        if(streamingaux.getNome() == Nome_do_App){
+            streamingaux.run();
+        }
+    }
 }

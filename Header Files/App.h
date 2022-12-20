@@ -10,6 +10,7 @@ class App{
 		float version;
 		
 	public:
+        App();
 		App(string Nome, float version);
 		void setNome(string Nome);
 		string getNome();
