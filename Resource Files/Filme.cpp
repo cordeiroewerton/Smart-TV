@@ -7,6 +7,10 @@ Filme::Filme(string Nome_da_producao, int duration): Producoes(Nome_da_producao)
     this -> duration = duration;
 }
 
+int Filme::getTempo() {
+    return duration;
+}
+
 void Filme::play() {
     cout << "NOME DO FILME: " << getNome_da_producao() << endl;
     cout << "DURACAO DO FILME: " << duration;

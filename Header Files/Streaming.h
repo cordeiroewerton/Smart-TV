@@ -19,6 +19,11 @@ public:
     int getSeriesTam();
     Filme getFilme(int i);
     Serie getSerie(int i);
+    void runProducao(string NomeProducao);
+    void addDiretor(string NomeProducao, string NomeDoDiretor, int NumeroDeProducoes);
+    void addAtor(string NomeProducao, string NomeDoAtor, int Tempo_de_carreira);
+    void removDiretor(string NomeProducao, string DiretorNome);
+    void removAtor(string NomeProducao, string AtorNome);
 };
 
 #endif

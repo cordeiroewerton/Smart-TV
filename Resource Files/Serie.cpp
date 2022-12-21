@@ -7,6 +7,10 @@ Serie::Serie(string Nome_da_producao, int Numero_de_cap): Producoes(Nome_da_prod
     this -> Numero_de_cap = Numero_de_cap;
 }
 
+int Serie::getCaps() {
+    return Numero_de_cap;
+}
+
 void Serie::play(){
     cout << "NOME DA SERIE: " << getNome_da_producao() << endl;
     cout << "QUANTIDADE DE CAPITULOS: " << Numero_de_cap;

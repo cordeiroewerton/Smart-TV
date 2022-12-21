@@ -10,8 +10,10 @@ SmartTV::SmartTV(string marca, string modelo, float versaoSO) {
 }
 
 void SmartTV::Ligar() {
-    fstream arq1("../DadosStreaming.bin",ios::in);
-    fstream arq2("../DadosTime.bin",ios::in);
+    fstream arq1;
+    fstream arq2;
+    arq1.open("../DadosStreaming.txt",ios::in);
+    arq2.open("../DadosTime.txt",ios::in);
     if(arq1.is_open()) {
         while (arq1.read(reinterpret_cast<char *>(&streamingaux), sizeof(streamingaux))) {
             appStreaming.push_back(streamingaux);
@@ -64,6 +66,24 @@ void SmartTV::desinstalarApp(string Nome_do_App) {
         streamingaux = appStreaming.at(i);
         if(streamingaux.getNome() == Nome_do_App){
             appStreaming.erase(appStreaming.begin() + (i-1));
+        }
+    }
+}
+
+Streaming SmartTV::retornaStream(string nomeApp) {
+    for(int i = 0; i < appStreaming.size(); i++){
+         Streaming auxStream = appStreaming.at(i);
+        if(nomeApp == auxStream.getNome()){
+            return auxStream;
+        }
+    }
+}
+
+void SmartTV::salvaStream(Streaming streaming) {
+    for(int i = 0; i < appStreaming.size(); i++){
+        Streaming auxStream = appStreaming.at(i);
+        if(streaming.getNome() == auxStream.getNome()){
+            appStreaming[i] = streaming;
         }
     }
 }

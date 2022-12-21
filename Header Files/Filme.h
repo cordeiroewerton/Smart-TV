@@ -8,6 +8,7 @@ private:
 public:
     Filme(string Nome_da_producao, int duration);
     Filme();
+    int getTempo();
     void play() override;
 };
 

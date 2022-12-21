@@ -8,6 +8,7 @@ private:
 public:
     Serie();
     Serie(string Nome_da_producao, int Numero_de_cap);
+    int getCaps();
     void play() override;
 };
 

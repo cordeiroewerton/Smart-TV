@@ -22,6 +22,8 @@ public:
     void instalarApp(Streaming straming);
     void desinstalarApp(string Nome_do_App);
     int run(string Nome_do_App);
+    Streaming retornaStream(string nomeApp);
+    void salvaStream(Streaming streaming);
 
 };
 
